@@ -1,11 +1,17 @@
-
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      hello world
-      Lorem ipsum dolor sit amet. 
+      <div>
+        <Navbar />
+      </div>
+      <div>
+       
+      </div>
+  
       
+
     </div>
   );
 }
