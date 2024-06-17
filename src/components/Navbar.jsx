@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 const Navbar = () => {
   return (
-    <div className="text-gray-500 ">
+    <div className="text-gray-100 mb-2 ">
       <div className="card w-64 glass bg-gray-900 rounded-md ml-2">
         <div className="bg-gray-900 ">
           <figure>
@@ -27,7 +27,7 @@ const Navbar = () => {
           <div className="font-semibold ">
             <h2>Nigeria</h2>
             <p>Lagos</p>
-            <p>22</p>
+            <p>25</p>
           </div>
         </div>
         <hr className="w-60 ml-2 mt-4 border-2 border-solid border-green-600 "></hr>
