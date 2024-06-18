@@ -1,10 +1,11 @@
 import React from "react";
+import { FaDownload } from "react-icons/fa6";
 
 const Languages = () => {
   return (
-    <div className="">
+    <div className="mb-5">
       <div>
-        <h2 className=" font-semibold m-7 text-2xl">Languages</h2>
+        <h2 className=" font-semibold m-7 text-2xl ">Languages</h2>
       </div>
       <span className="flex ml-5">
         <p className="mr-32">English</p>
@@ -34,7 +35,12 @@ const Languages = () => {
       <p className="ml-5 mt-5">Phone Number</p>
       <small className="ml-5">*2348143643066</small>
       <hr className="w-60 ml-2 mt-4 mb-5 border-2 border-solid border-green-600 "></hr>
-      <a href="Patrick-Iyiakimo-FlowCV-Resume-20240616.pdf" className="ml-5 ">Visit Resume</a>
+      <a
+        href="https://flowcv.com/resume/ws4se0s24h"
+        className=" font-semibold hover:underline hover:text-green-200 gap-3 flex justify-center items-center"
+      >
+        Visit Resume <FaDownload />
+      </a>
     </div>
   );
 };
