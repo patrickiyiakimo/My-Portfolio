@@ -4,19 +4,16 @@ import RightSection from "./pages/RightSection";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
       <div>
         <Navbar />
       </div>
       <div>
-       <Hero />
+        <Hero />
       </div>
       <div>
         <RightSection />
       </div>
-  
-      
-
     </div>
   );
 }
