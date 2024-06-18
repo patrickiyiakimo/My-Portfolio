@@ -4,6 +4,7 @@ import CoreSkills from "./CoreSkills";
 import Languages from "./Languages";
 import Tools from "./Tools";
 import Footer from "./Footer";
+import { CiMenuKebab } from "react-icons/ci";
 import RightSection from "../pages/RightSection";
 
 const Navbar = () => {
@@ -12,8 +13,8 @@ const Navbar = () => {
       <input id="my-drawer" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content ">
         {/* Page content here */}
-        <label htmlFor="my-drawer" className="btn btn-primary drawer-button">
-          Left drawer
+        <label htmlFor="my-drawer" className="btn">
+          <CiMenuKebab />
         </label>
       </div>
       <div className="drawer-side ">

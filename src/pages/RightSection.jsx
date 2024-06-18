@@ -3,6 +3,8 @@ import { FaHome } from "react-icons/fa";
 import { PiSelectionBackgroundFill } from "react-icons/pi";
 import { FaRegLightbulb } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
+import { TiThMenuOutline } from "react-icons/ti";
+
 
 const RightSection = () => {
   return (
@@ -13,9 +15,9 @@ const RightSection = () => {
           {/* Page content here */}
           <label
             htmlFor="my-drawer-4"
-            className="drawer-button btn btn-primary"
+            className="drawer-button btn "
           >
-            Right drawer
+            <TiThMenuOutline className=""/>
           </label>
         </div>
         <div className="drawer-side">
