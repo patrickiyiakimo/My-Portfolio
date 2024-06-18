@@ -32,7 +32,7 @@ const Languages = () => {
         href="https://flowcv.com/resume/ws4se0s24h"
         className=" font-semibold hover:underline hover:text-green-200 gap-3 flex justify-center items-center"
       >
-        Visit Resume <FaDownload />
+        View Resume <FaDownload />
       </a>
       <progress className="progress w-56 ml-3"></progress>
     </div>
