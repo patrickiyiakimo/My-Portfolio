@@ -6,10 +6,10 @@ const Languages = () => {
     <div className="mb-5  ">
       <div
         className="radial-progress ml-5 mt-5 mr-10 text-green-600 font-semibold"
-        style={{ "--value": 100 }}
+        style={{ "--value": 90 }}
         role="progressbar"
       >
-        100%
+        98%
       </div>
       <div
         className="radial-progress mt-5 text-green-600 font-semibold"

@@ -1,4 +1,8 @@
-import React from 'react'
+import React from "react";
+import { FaHome } from "react-icons/fa";
+import { PiSelectionBackgroundFill } from "react-icons/pi";
+import { FaRegLightbulb } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 
 const RightSection = () => {
   return (
@@ -20,28 +24,35 @@ const RightSection = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+          <ul className="menu p-4 w-80 min-h-full bg-gray-600  pt-64 pl-10 font-semibold text-xl text-gray-100">
             {/* Sidebar content here */}
             <li>
-              <a>Sidebar Item 1</a>
+              <a>
+                <FaHome /> Home
+              </a>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <a>
+                <PiSelectionBackgroundFill /> Background
+              </a>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
+              <a>
+                <FaRegLightbulb />
+                Portfolio
+              </a>
             </li>
             <li>
-              <a>Sidebar Item 2</a>
-            </li>
-            <li>
-              <a>Sidebar Item 2</a>
+              <a>
+                <FaCode />
+                Other Skills
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default RightSection
+export default RightSection;
