@@ -6,13 +6,13 @@ function App() {
   return (
     <div className="App ">
       <div>
-        <Navbar />
+        {/* <Navbar /> */}
       </div>
       <div>
         <Hero />
       </div>
       <div>
-        <RightSection />
+        {/* <RightSection /> */}
       </div>
     </div>
   );
