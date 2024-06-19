@@ -8,6 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { PiSelectionBackgroundFill } from "react-icons/pi";
 import { FaCode } from "react-icons/fa";
 
+
 const Hero = () => {
   return (
     <div
@@ -21,7 +22,7 @@ const Hero = () => {
       <div className="bg-gray-900  bg-opacity-30 backdrop-blur-lg p-10  shadow-lg text-gray-200 md:ml-40 md:mr-40 pt-10 pb-10 rounded-md">
         <div className="md:ml-20 md:mr-20 bg-gray-800 pt-6 pb-10    bg-opacity-30 backdrop-blur-lg p-10 rounded-lg shadow-lg">
           <div className="hidden md:flex md:mr-10 ">
-            <Navbar />
+            <Navbar className="" />
             <RightSection className="" />
           </div>
 

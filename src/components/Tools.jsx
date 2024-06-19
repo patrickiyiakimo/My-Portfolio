@@ -22,6 +22,7 @@ const Tools = () => {
           <div className="badge badge-ghost  mt-3">Trello</div>
           <div className="badge badge-ghost  mt-3">Zoom</div>
           <div className="badge badge-ghost  mt-3">Express JS</div>
+          <div className="badge badge-ghost  mt-3">Tailwind CSS</div>
         </span>
       </diiv>
       <hr className="w-60 ml-2 mt-4 border-2 border-solid border-green-600 "></hr>
