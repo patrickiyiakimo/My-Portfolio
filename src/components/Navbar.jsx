@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="drawer-content ">
         {/* Page content here */}
         <label htmlFor="my-drawer" className="btn">
-          <CiMenuKebab />
+          <CiMenuKebab className=""/>
         </label>
       </div>
       <div className="drawer-side ">
