@@ -33,7 +33,7 @@ const Hero = () => {
             I am a Frontend Engineer
           </p>
 
-          <p className="bg-green-500 text-black pl-10 mt-4 rounded-full md:ml-52 w-72 text-xl ">
+          <p className="bg-green-500 text-gray-600 pl-10 mt-4 rounded-full md:ml-52 w-72 text-xl ">
             2 years of Experience
           </p>
         </div>

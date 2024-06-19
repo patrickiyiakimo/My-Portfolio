@@ -24,9 +24,11 @@ const Languages = () => {
       </div>
       <hr className="w-60 ml-2 mt-4 border-2 border-solid border-green-600 "></hr>
       <p className="ml-5 mt-5">Email Address</p>
-      <small className="ml-5">iyiakimopatrick2002@gmail.com</small>
+      <small className="ml-5 text-gray-400">
+        iyiakimopatrick2002@gmail.com
+      </small>
       <p className="ml-5 mt-5">Phone Number</p>
-      <small className="ml-5">*2348143643066</small>
+      <small className="ml-5 text-gray-400">*2348143643066</small>
       <hr className="w-60 ml-2 mt-4 mb-5 border-2 border-solid border-green-600 "></hr>
       <a
         href="https://flowcv.com/resume/ws4se0s24h"
