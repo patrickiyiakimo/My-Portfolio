@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { PiSelectionBackgroundFill } from "react-icons/pi";
 import { FaCode } from "react-icons/fa";
-
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   return (
@@ -23,16 +23,35 @@ const Hero = () => {
           </div>
 
           <img src={avatar} alt="my avatar" className="w-40 ml-16 md:ml-64 " />
-          <h1 className="text-center text-2xl md:text-4xl font-bold">
-            Hello, my name is Patrick Iyiakimo
+          <h1 className=" text-xl md:text-4xl text-center font-bold">
+            Hello, I am Patrick Iyiakimo
           </h1>
-          <p className="md:pl-10 mt-4 text-xl md:text-3xl text-center">
-            I am a Frontend Engineer
-          </p>
 
-          <p className="bg-green-500 text-gray-600 pl-10 mt-4 rounded-full md:ml-52 w-72 text-xl ">
-            2 years of Experience
-          </p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+            }}
+          >
+            <TypeAnimation
+              sequence={[
+                "I am a Frontend Engineer",
+                2000,
+                "With 2 years of experience ",
+                2000,
+                "and I am passionate about problem solving.",
+                2000,
+                "You can click on any of the Icons to know more about me. Thank You :)",
+                2000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ fontSize: "1em", display: "inline-block" }}
+              repeat={Infinity}
+            />
+          </div>
         </div>
         <div className="md:grid md:grid-cols-2 text-green-500 pt-2">
           <p className="md:ml-20 ">
