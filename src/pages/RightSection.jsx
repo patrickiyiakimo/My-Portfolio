@@ -13,11 +13,9 @@ const RightSection = () => {
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content ml-96">
           {/* Page content here */}
-          <label
-            htmlFor="my-drawer-4"
-            className="drawer-button btn "
-          >
-            <TiThMenuOutline className=""/>
+          <label htmlFor="my-drawer-4" className="drawer-button btn ">
+            {/* <TiThMenuOutline className=""/> */}
+            <TiThMenuOutline className="animate-pulse-scale text-3xl" />
           </label>
         </div>
         <div className="drawer-side">
