@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Cards from "./pages/Cards";
 import Hero from "./pages/Hero";
+import Portfolio from "./pages/Portfolio";
 import RightSection from "./pages/RightSection";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <Hero />
       </div>
       <div>
-        {/* <Cards /> */}
+        <Portfolio />
       </div>
     </div>
   );
