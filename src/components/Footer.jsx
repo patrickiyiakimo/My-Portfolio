@@ -7,7 +7,7 @@ import { SiLinkedin } from "react-icons/si";
 const Footer = () => {
   return (
     <div className="bg-gray-900 rounded-md ">
-      <div className="flex justify-center items-center gap-10">
+      <div className="flex justify-center pb-5 items-center gap-10">
         <button className="">
           <a href="https://github.com/patrickiyiakimo">
             <FaGithub className="h-14" />

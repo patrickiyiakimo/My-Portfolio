@@ -4,7 +4,9 @@ const Tools = () => {
   return (
     <div>
       <diiv>
-        <h2 className="text-2xl font-semibold ml-5 mb-5 mt-10">Tools</h2>
+        <h2 className="text-2xl font-semibold ml-5 mb-5 mt-10">
+          Frameworks / Tools
+        </h2>
         <span className="grid grid-cols-2 ml-5 mb-10 ">
           <div className="badge badge-ghost  mt-3">Git</div>
           <div className="badge badge-ghost  mt-3">Material UI</div>
