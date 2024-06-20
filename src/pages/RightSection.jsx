@@ -24,7 +24,7 @@ const RightSection = () => {
             aria-label="close sidebar"
             className="drawer-overlay"
           ></label>
-          <ul className="menu p-4 w-80 min-h-full bg-gray-600  pt-64  font-semibold text-xl text-gray-100">
+          <ul className="menu p-4 w-80 min-h-full bg-gray-600  pt-52  font-semibold text-xl text-gray-100">
             {/* Sidebar content here */}
             <li>
               <a>

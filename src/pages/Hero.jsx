@@ -12,7 +12,7 @@ import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
     <div
-      className="bg-cover h-screen bg-bottom w-full"
+      className="bg-cover h-screen bg-bottom w-full pt-16"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="bg-gray-900  bg-opacity-30 backdrop-blur-lg p-10  shadow-lg text-gray-200 md:ml-40 md:mr-40 pt-10 pb-10 rounded-md">
@@ -53,30 +53,37 @@ const Hero = () => {
             />
           </div>
         </div>
-        <div className="md:grid md:grid-cols-2 text-green-500 pt-2">
-          <p className="md:ml-20 ">
+        <div className="md:grid md:grid-cols-2 text-gray-300 pt-2">
+          <p className="md:ml-20  hover:text-green-500">
             <button className="pr-2">
               <FaGithub />
             </button>
-            https://github.com/patrickiyiakimo
+            <a href=" https://github.com/patrickiyiakimo" className="">
+              https://github.com/patrickiyiakimo
+            </a>
           </p>
-          <p>
-            <button className="pr-2">
+          <p className=" hover:text-green-500">
+            <button className="pr-2 ">
               <FaLinkedin />
             </button>
-            https://linkedin.com/in/patrick-iyiakimo-6a15a226a
+            <a
+              href=" https://linkedin.com/in/patrick-iyiakimo-6a15a226a"
+              className=""
+            >
+              https://linkedin.com/in/patrick-iyiakimo-6a15a226a
+            </a>
           </p>
-          <p className="md:ml-20">
+          <p className="md:ml-20  hover:text-green-500">
             <button className="pr-2">
               <PiSelectionBackgroundFill />
             </button>
-            My Background
+            <a href="/"> My Background</a>
           </p>
-          <p>
+          <p className=" hover:text-green-500">
             <button className="pr-2">
               <FaCode />
             </button>
-            Other Skills & Hobbies
+            <a href="/"> Other Skills & Hobbies</a>
           </p>
         </div>
       </div>
