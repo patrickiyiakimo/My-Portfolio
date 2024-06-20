@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+// import background from "../images/galaxy.webp";
+
 
 const Portfolio = () => {
   const [details, setDetails] = React.useState([]);
@@ -13,11 +15,11 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="mb-10">
+    <div className="pb-10 bg-black">
       {details.map((detail) => {
         return (
           <div
-            className="card w-96 bg-base-100 shadow-2xl mb-10 flex ml-20 mt-10"
+            className="card w-96 bg-base-100 shadow-2xl mb-10 flex ml-20 pt-10"
             key={detail._id}
           >
             <figure className="px-10 pt-10">

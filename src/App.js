@@ -1,3 +1,4 @@
+import Footer from "./pages/Footer";
 import Navbar from "./components/Navbar";
 import Cards from "./pages/Cards";
 import Hero from "./pages/Hero";
@@ -12,6 +13,9 @@ function App() {
       </div>
       <div>
         <Portfolio />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
