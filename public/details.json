@@ -1,31 +1,27 @@
 [
   {
     "_id": 1,
-    "image": "src/images/pato.JPG",
+    "image": "../public/images/pato.JPG",
     "title": "trendy-trove",
-    "body": "",
-    "Stacks": ""
+    "body": " From timeless classics to modern marvels, we offer pieces that transforms houses into homes."
   },
   {
     "_id": 2,
-    "image": "src/images/pato.JPG",
+    "image": "../public/images/pato.JPG",
     "title": "coinfied-2024",
-    "body": "",
-    "Stacks": ""
+    "body": " Step into the realm of digital currency with Coinfied, where possibilities abound and opportunities await."
   },
   {
     "_id": 3,
-    "image": "src/images/pato.JPG",
+    "image": "../public/images/pato.JPG",
     "title": "bharat-intern-one",
-    "body": "",
-    "Stacks": ""
+    "body": "  Join a network of like-minded individuals, unlock new possibilities, and experience growth on your journey to success."
   },
 
   {
     "_id": 4,
-    "image": "src/images/pato.JPG",
+    "image": "../public/images/pato.JPG",
     "title": "weblify-app",
-    "body": "",
-    "Stacks": ""
+    "body": "Effortlessly Shorten your long URLs with Weblify."
   }
 ]
