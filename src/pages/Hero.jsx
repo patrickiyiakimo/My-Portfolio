@@ -221,7 +221,7 @@ const Hero = () => {
     >
       <div className="bg-gray-900 bg-opacity-30 backdrop-blur-lg p-10 shadow-lg text-gray-200 mx-auto max-w-6xl h-full flex flex-col justify-center rounded-md">
         <div className="bg-gray-800 bg-opacity-30 backdrop-blur-lg p-10 rounded-lg shadow-lg">
-          <div className=" md:flex justify-between mb-10">
+          <div className="mr-14 md:flex justify-between mb-10">
             <Navbar />
             <RightSection />
           </div>
