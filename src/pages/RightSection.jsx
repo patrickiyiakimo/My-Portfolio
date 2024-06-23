@@ -2,7 +2,8 @@ import React from "react";
 import { FaHome } from "react-icons/fa";
 import { PiSelectionBackgroundFill } from "react-icons/pi";
 import { FaRegLightbulb } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
+// import { FaCode } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { TiThMenuOutline } from "react-icons/ti";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
@@ -45,11 +46,11 @@ const RightSection = () => {
                 </a>
               </li>
             </Link>
-            <Link to="/otherskills">
+            <Link to="/contact">
               <li>
                 <a>
-                  <FaCode />
-                  Other Skills
+                  <FaPhoneAlt />
+                  Contact
                 </a>
               </li>
             </Link>

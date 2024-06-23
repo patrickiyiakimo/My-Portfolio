@@ -1,9 +1,9 @@
 import React from 'react'
 
-const OtherSkills = () => {
+const Contact = () => {
   return (
     <div>OtherSkills</div>
   )
 }
 
-export default OtherSkills
+export default Contact

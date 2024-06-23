@@ -2,7 +2,7 @@ import Hero from "./pages/Hero";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
 import Background from "./pages/Background";
-import OtherSkills from "./pages/OtherSkills";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
           <Route path="/portfolio">
             <Portfolio />
           </Route>
-          <Route path="/otherskills">
-            <OtherSkills />
+          <Route path="/contact">
+            <Contact />
           </Route>
         </Switch>
       </div>
