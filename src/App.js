@@ -1,23 +1,29 @@
-import Footer from "./pages/Footer";
-import Navbar from "./components/Navbar";
-import Cards from "./pages/Cards";
 import Hero from "./pages/Hero";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Portfolio from "./pages/Portfolio";
-import RightSection from "./pages/RightSection";
+import Background from "./pages/Background";
+import OtherSkills from "./pages/OtherSkills";
 
 function App() {
   return (
-    <div className="App ">
-      <div>
-        <Hero />
+    <Router>
+      <div className="App ">
+        <Switch>
+          <Route exact path="/">
+            <Hero />
+          </Route>
+          <Route path="/background">
+            <Background />
+          </Route>
+          <Route path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route path="/otherskills">
+            <OtherSkills />
+          </Route>
+        </Switch>
       </div>
-      <div>
-        {/* <Portfolio /> */}
-      </div>
-      <div>
-        {/* <Footer /> */}
-      </div>
-    </div>
+    </Router>
   );
 }
 

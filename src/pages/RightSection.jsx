@@ -4,7 +4,7 @@ import { PiSelectionBackgroundFill } from "react-icons/pi";
 import { FaRegLightbulb } from "react-icons/fa";
 import { FaCode } from "react-icons/fa";
 import { TiThMenuOutline } from "react-icons/ti";
-
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const RightSection = () => {
   return (
@@ -30,23 +30,29 @@ const RightSection = () => {
                 <FaHome /> Home
               </a>
             </li>
-            <li>
-              <a>
-                <PiSelectionBackgroundFill /> Background
-              </a>
-            </li>
-            <li>
-              <a>
-                <FaRegLightbulb />
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a>
-                <FaCode />
-                Other Skills
-              </a>
-            </li>
+            <Link to="/background">
+              <li>
+                <a>
+                  <PiSelectionBackgroundFill /> Background
+                </a>
+              </li>
+            </Link>
+            <Link to="/portfolio">
+              <li>
+                <a>
+                  <FaRegLightbulb />
+                  Portfolio
+                </a>
+              </li>
+            </Link>
+            <Link to="/otherskills">
+              <li>
+                <a>
+                  <FaCode />
+                  Other Skills
+                </a>
+              </li>
+            </Link>
           </ul>
         </div>
       </div>
