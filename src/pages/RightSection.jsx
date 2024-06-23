@@ -14,8 +14,7 @@ const RightSection = () => {
         <div className="drawer-content ml-96">
           {/* Page content here */}
           <label htmlFor="my-drawer-4" className="drawer-button btn ">
-            {/* <TiThMenuOutline className=""/> */}
-            <TiThMenuOutline className="animate-pulse-scale text-3xl" />
+            <TiThMenuOutline className="animate-pulse-scale text-3xl text-green-600" />
           </label>
         </div>
         <div className="drawer-side">
