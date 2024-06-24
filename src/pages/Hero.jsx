@@ -24,16 +24,14 @@ const Hero = () => {
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="bg-gray-900 bg-opacity-30 backdrop-blur-lg p-10 shadow-lg text-gray-200 mx-auto max-w-6xl h-full flex flex-col justify-center rounded-md">
-  
         <div className="-mt-20 md:mt-1 bg-gray-800 bg-opacity-30 backdrop-blur-lg p-10 rounded-lg shadow-lg">
           <div className=" md:mr-14 md:flex  md:mb-10">
             <Navbar />
-
             <RightSection />
           </div>
 
           <div className="text-center">
-            <img src={avatar} alt="my avatar" className="w-40 mx-auto mb-4" />
+            <img src={avatar} alt="my avatar" className="w-36 ml-14 md:w-40 md:mx-auto mb-4 " />
             <h1 className="text-xl md:text-6xl font-bold mb-4">
               Hello, I am Patrick Iyiakimo
             </h1>
