@@ -31,7 +31,11 @@ const Hero = () => {
           </div>
 
           <div className="text-center">
-            <img src={avatar} alt="my avatar" className="w-36 ml-14 md:w-40 md:mx-auto mb-4 " />
+            <img
+              src={avatar}
+              alt="my avatar"
+              className="w-36 ml-14 md:w-40 md:mx-auto mb-4 "
+            />
             <h1 className="text-xl md:text-6xl font-bold mb-4">
               Hello, I am Patrick Iyiakimo
             </h1>
@@ -40,11 +44,11 @@ const Hero = () => {
               sequence={[
                 "I am a Frontend Engineer",
                 2000,
-                "With 2 years of experience ",
+                "You can click on any of the Icons to know more about me. Thank You :)",
+                2000,
+                "I have 2 years of experience ",
                 2000,
                 "and I am passionate about problem solving.",
-                2000,
-                "You can click on any of the Icons to know more about me. Thank You :)",
                 2000,
               ]}
               wrapper="span"
