@@ -23,7 +23,7 @@
 //       className="bg-cover h-screen w-full  overflow-hidden text-gray-200"
 //       style={{ backgroundImage: `url(${background})` }}
 //     >
-     
+
 //       {/* <div className="bg-gray-900 bg-opacity-30 backdrop-blur-lg p-10 shadow-lg text-gray-200 mx-auto max-w-6xl h-full flex flex-col justify-center rounded-md"> */}
 //       <div className="text-gray-800  bg-white h-full bg-opacity-10 backdrop-blur-lg  rounded-lg shadow-lg">
 //         <div className=" md:flex md:mb-10 mr-14 ">
@@ -85,11 +85,6 @@
 // };
 
 // export default Hero;
-
-
-
-
-
 
 import React from "react";
 import background from "../images/galaxy.webp";
@@ -167,9 +162,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-
-
-
-
-
