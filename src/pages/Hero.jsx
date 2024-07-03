@@ -63,7 +63,7 @@ const Hero = () => {
             repeat={Infinity}
           />
         </div>
-        <div className="ml-10 pb-36 grid grid-cols-4 md:flex md:items-center md:justify-center gap-4 text-center text-gray-300 pt-10">
+        <div className="ml-10 pb-32 grid grid-cols-4 md:flex md:items-center md:justify-center gap-4 text-center text-gray-300 pt-10">
           <FaHtml5 className="text-orange-500 w-10 h-10" />
           <FaCss3Alt className="text-blue-600 w-10 h-10" />
           <IoLogoJavascript className="text-yellow-400 w-10 h-10" />
