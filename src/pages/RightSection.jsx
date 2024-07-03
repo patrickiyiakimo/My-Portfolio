@@ -26,7 +26,7 @@ const RightSection = () => {
           <ul className="menu p-4 w-80 min-h-full bg-gray-600  pt-52  font-semibold text-xl text-gray-100">
             {/* Sidebar content here */}
             <li>
-              <a>
+              <a href="#home">
                 <FaHome /> Home
               </a>
             </li>

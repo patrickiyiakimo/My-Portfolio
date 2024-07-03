@@ -3,6 +3,7 @@ import React from "react";
 const Background = () => {
   return (
     <div className="bg-gray-900 text-gray-400 ">
+      <h1 className="text-center text-gray-800 text-2xl font-bold  pt-5">My Background</h1>
       <div className=" pt-20 pb-10 text-center md:flex md:items-center md:justify-center gap-96">
         <h4 className="text-2xl font-bold">Companies I have Worked With</h4>
         <h4 className="hidden md:block md:text-2xl md:font-bold">Education</h4>

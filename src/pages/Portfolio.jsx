@@ -60,11 +60,12 @@ const Portfolio = () => {
 
   return (
     <div className="pb-10 bg-gray-900">
-      <div className="grid grid-cols-2 gap-10 px-20 pt-10">
+      <h1 className="text-center text-2xl font-bold  pt-5">My Portfolio</h1>
+      <div className="md:grid md:grid-cols-2 gap-10 px-20 pt-10 ">
         {details.map((detail) => {
           return (
             <div
-              className="card bg-gray-800 shadow-2xl mb-10 pt-10 h-full"
+              className="card bg-gray-800 shadow-2xl mb-10 pt-10 h-full text-gray-400"
               key={detail._id}
             >
               <figure className="px-10 pt-10">

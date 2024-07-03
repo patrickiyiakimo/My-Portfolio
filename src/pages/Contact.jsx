@@ -3,9 +3,7 @@ import React from 'react'
 const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 pb-10">
-      <h2 className="text-2xl font-semibold text-gray-300 mb-5">
-        Get in touch
-      </h2>
+      <h1 className="text-center text-2xl font-bold pb-5 pt-5">Contact Me</h1>
       <div className="bg-gray-800 p-10 rounded-lg">
         <label className="input input-bordered flex items-center mb-10 gap-2 w-72">
           <svg
