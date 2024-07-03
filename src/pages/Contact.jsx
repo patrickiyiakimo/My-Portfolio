@@ -30,10 +30,10 @@ const Contact = () => {
         </label>
         <textarea
           placeholder="Send a message ..."
-          className="mt-10 rounded-lg w-72 h-40 border-none"
+          className="mt-10 rounded-lg w-72 h-40 border-none bg-gray-600"
         />
         <br />
-        <button className="bg-green-500 p-3 rounded-lg mt-10 transform transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:border-b-4 hover:border-green-300">
+        <button className="bg-green-700 text-white p-3 rounded-lg mt-10 transform transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:border-b-4 hover:border-green-300">
           SEND MESSAGE
         </button>
       </div>
