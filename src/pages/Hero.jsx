@@ -18,7 +18,8 @@ import { FaNodeJs } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-<FaGithub />;
+import { FaArrowPointer } from "react-icons/fa6";
+
 
 const Hero = () => {
   return (
@@ -27,6 +28,7 @@ const Hero = () => {
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="text-gray-800 bg-white h-full bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg">
+        <FaArrowPointer className="text-white absolute w-8 h-8 left-10 top-14 sm:hidden" />
         <div className="flex flex-col md:flex-row mb-10 mr-20 -ml-3 md:mr-40 md:ml-20 pt-5">
           <Navbar className="mb-4 md:mb-0" />
           <RightSection className="mb-4 md:mb-0" />
