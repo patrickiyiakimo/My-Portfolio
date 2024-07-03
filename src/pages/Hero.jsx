@@ -29,17 +29,17 @@ const Hero = () => {
     >
       <div className="text-gray-800 bg-white h-full bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg">
         <FaArrowPointer className="text-white absolute w-8 h-8 left-10 top-14 sm:hidden" />
-        <div className="flex flex-col md:flex-row mb-10 mr-20 -ml-3 md:mr-40 md:ml-20 pt-5">
-          <Navbar className="mb-4 md:mb-0" />
-          <RightSection className="mb-4 md:mb-0" />
+        <div className="flex flex-col md:flex-row mb-5 mr-20 -ml-3 md:mr-40 md:ml-20 pt-5">
+          <Navbar className="" />
+          <RightSection className=" " />
         </div>
         <div className="text-center">
           <img
             src={avatar}
             alt="my avatar"
-            className="w-36 mx-auto md:w-40 mb-4"
+            className="w-36 mx-auto md:w-40 mb-1"
           />
-          <h1 className="text-xl md:text-6xl font-bold mb-4">
+          <h1 className="text-xl md:text-6xl font-bold mb-1">
             Hello, I am Patrick Iyiakimo
           </h1>
           <TypeAnimation
@@ -63,7 +63,7 @@ const Hero = () => {
             repeat={Infinity}
           />
         </div>
-        <div className="ml-10 pb-24 grid grid-cols-4 md:flex md:items-center md:justify-center gap-4 text-center text-gray-300 pt-10">
+        <div className="ml-10 pb-36 grid grid-cols-4 md:flex md:items-center md:justify-center gap-4 text-center text-gray-300 pt-10">
           <FaHtml5 className="text-orange-500 w-10 h-10" />
           <FaCss3Alt className="text-blue-600 w-10 h-10" />
           <IoLogoJavascript className="text-yellow-400 w-10 h-10" />
