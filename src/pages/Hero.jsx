@@ -3,19 +3,22 @@ import background from "../images/galaxy.webp";
 import Navbar from "../components/Navbar";
 import RightSection from "./RightSection";
 import avatar from "../images/avataaars.png";
-import html from "../images/HTML logo.png";
-import css from "../images/CSS logo.png";
-import javascript from "../images/JavaScript.png";
-import tailwind from "../images/Tailwind logo.png";
-import next from "../images/Next js logo.png";
-import chakra from "../images/ChakraUI logo.jpeg";
-import material from "../images/Material UI logo.png";
-import typescript from "../images/Typescript logo.png";
-import react from "../images/React.png";
-import vue from "../images/Vue js logo.png";
-import nodejs from "../images/Node jslogo.png";
-import expressjs from "../images/Expressjs logo.png";
 import { TypeAnimation } from "react-type-animation";
+import Footer from "./Footer";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { FaVuejs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
+import { SiChakraui } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+<FaGithub />;
 
 const Hero = () => {
   return (
@@ -46,32 +49,34 @@ const Hero = () => {
             ]}
             wrapper="span"
             speed={10}
-            style={{ fontSize: "2em", color: "white", fontWeight: "bold" }}
+            style={{ fontSize: "1em", color: "white", fontWeight: "bold" }}
             repeat={Infinity}
           />
           <p>You can click on any of the Icons to know more about me</p>
           <TypeAnimation
-            sequence={[" Thank You :)", 2000]}
+            sequence={[" Thank You🙂", 2000]}
             wrapper="span"
             speed={10}
-            style={{ fontSize: "2em", color: "white", fontWeight: "bold" }}
+            style={{ fontSize: "1em", color: "white", fontWeight: "bold" }}
             repeat={Infinity}
           />
         </div>
-        <div className="ml-10 pb-10 grid grid-cols-4 md:flex md:items-center md:justify-center gap-4 text-center text-gray-300 pt-10">
-          <img src={html} alt="html logo" className="w-8" />
-          <img src={css} alt="css logo" className="w-8" />
-          <img src={javascript} alt="javascript logo" className="w-8" />
-          <img src={vue} alt="vue logo" className="w-8" />
-          <img src={react} alt="react logo" className="w-8" />
-          <img src={tailwind} alt="tailwind logo" className="w-8" />
-          <img src={next} alt="next logo" className="w-8" />
-          <img src={typescript} alt="typescript logo" className="w-8" />
-          <img src={chakra} alt="chakra logo" className="w-8" />
-          <img src={material} alt="material logo" className="w-8" />
-          <img src={nodejs} alt="nodejs logo" className="w-8" />
-          <img src={expressjs} alt="expressjs logo" className="w-8" />
+        <div className="ml-10 pb-24 grid grid-cols-4 md:flex md:items-center md:justify-center gap-4 text-center text-gray-300 pt-10">
+          <FaHtml5 className="text-orange-500 w-10 h-10" />
+          <FaCss3Alt className="text-blue-600 w-10 h-10" />
+          <IoLogoJavascript className="text-yellow-400 w-10 h-10" />
+          <FaVuejs className="text-green-600 w-10 h-10" />
+          <FaReact className="text-sky-400 w-10 h-10" />
+          <RiTailwindCssFill className="text-sky-400 w-10 h-10" />
+          <RiNextjsFill className="text-white w-10 h-10" />
+          <SiTypescript className="text-blue-600 w-10 h-10" />
+          <SiChakraui className="text-sky-400 w-10 h-10" />
+          <FaNodeJs className="text-green-600 w-10 h-10" />
+          <SiExpress className="text-white w-10 h-10" />
+          <FaGitAlt className="text-orange-500 w-10 h-10" />
+          <FaGithub className="w-10 h-10" />
         </div>
+        <Footer />
       </div>
     </div>
   );
