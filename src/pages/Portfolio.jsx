@@ -19,7 +19,7 @@ const Portfolio = () => {
 
   if (loading) {
     return (
-      <SkeletonTheme baseColor="#808080" highlightColor="#444">
+      <SkeletonTheme baseColor="#0202" highlightColor="#708090">
         <div className="pb-10 bg-gray-900">
           <h1 className="text-center text-2xl font-bold pt-5">
             <Skeleton width={200} />
@@ -31,14 +31,14 @@ const Portfolio = () => {
                 key={index}
               >
                 <figure className="px-10 pt-10">
-                  <Skeleton height={50} width={300} />
+                  <Skeleton height={70} width={300} />
                 </figure>
                 <div className="card-body bg-gray-600 rounded-lg items-center text-center">
                   <h2 className="card-title underline">
                     <Skeleton width={150} />
                   </h2>
                   <p>
-                    <Skeleton count={4} />
+                    <Skeleton count={2} />
                   </p>
                 </div>
               </div>
