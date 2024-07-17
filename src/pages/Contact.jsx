@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import * as Yup from "yup";
 
 const Contact = () => {
@@ -40,6 +41,13 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900 pb-10">
+      <Helmet>
+        <title>Contact me</title>
+        <meta
+          name="Contact section"
+          content="You can reach me by sending a message"
+        />
+      </Helmet>
       <h1 className="text-center text-2xl font-bold pb-5 pt-5">Contact Me</h1>
       <div className="bg-gray-800 p-10 rounded-lg">
         <form onSubmit={handleSubmit}>
