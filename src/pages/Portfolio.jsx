@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
@@ -51,6 +52,13 @@ const Portfolio = () => {
 
   return (
     <div className="pb-10 bg-gray-900">
+      <Helmet>
+        <title>Projects</title>
+        <meta
+          name="My Projects"
+          content="You can visit all of my projects"
+        />
+      </Helmet>
       <h1 className="text-center text-2xl font-bold pt-5">My Portfolio</h1>
       <div className="md:grid md:grid-cols-2 gap-10 px-20 pt-10">
         {details.map((detail) => (
