@@ -1,8 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const Background = () => {
   return (
     <div className="bg-gray-900 text-gray-400 ">
+      <Helmet>
+        <title>Background Info</title>
+        <meta
+          name="Background Information"
+          content="Everything you need to know about me"
+        />
+      </Helmet>
       <h1 className="text-center text-gray-800 text-2xl font-bold  pt-5">My Background</h1>
       <div className=" pt-20 pb-10 text-center md:flex md:items-center md:justify-center gap-96">
         <h4 className="text-2xl font-bold">Companies I have Worked With</h4>
