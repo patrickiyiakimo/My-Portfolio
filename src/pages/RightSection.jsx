@@ -17,7 +17,7 @@ const RightSection = () => {
             htmlFor="my-drawer-4"
             className="drawer-button btn  bg-gray-800"
           >
-            <TiThMenuOutline className="animate-pulse-scale text-3xl text-green-400 w-5 md:w-10" />
+            <TiThMenuOutline className=" hover:text-black animate-pulse-scale text-3xl text-green-400 w-5 md:w-10" />
           </label>
         </div>
         <div className="drawer-side">

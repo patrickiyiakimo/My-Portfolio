@@ -14,7 +14,7 @@ const Navbar = () => {
       <div className="drawer-content ">
         {/* Page content here */}
         <label htmlFor="my-drawer" className="btn bg-gray-800">
-          <CiMenuKebab className="animate-pulse-scale text-3xl text-green-400 w-5 md:w-10" />
+          <CiMenuKebab className="animate-pulse-scale text-3xl text-green-400 w-5 md:w-10  hover:text-black" />
         </label>
       </div>
       <div className="drawer-side ">
