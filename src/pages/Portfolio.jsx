@@ -58,7 +58,7 @@ const Portfolio = () => {
             className="card bg-gray-800 shadow-2xl mb-10 pt-10 h-full text-gray-400"
             key={detail._id}
           >
-            <figure className="px-10 pt-10">
+            <figure className="md:px-10 pt-10">
               {detail.image ? (
                 <img
                   src={detail.image}
