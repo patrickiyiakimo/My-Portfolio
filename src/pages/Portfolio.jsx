@@ -14,7 +14,7 @@ const Portfolio = () => {
         setTimeout(() => {
           setDetails(data);
           setLoading(false);
-        }, 3000);
+        }, 2000);
       });
   }, []);
 

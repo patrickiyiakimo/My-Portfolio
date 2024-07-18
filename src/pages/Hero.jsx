@@ -117,7 +117,7 @@ const Hero = () => {
     // Simulate loading delay
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the timeout delay as needed
+    }, 1000); // Adjust the timeout delay as needed
 
     return () => clearTimeout(timer);
   }, []);
