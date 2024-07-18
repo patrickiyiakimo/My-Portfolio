@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Helmet>
-        <title>My Portfolio</title>
+        <title>Patrick Iyiakimo</title>
         <meta
           name="Description"
           content="Get all the information you need to know about me"
