@@ -44,7 +44,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen block bg-gray-900 pb-10 md:grid md:grid-cols-2">
+    <div className="min-h-screen block bg-gray-900 pb-10 md:grid md:grid-cols-2 font-abc">
       <div className="md:ml-40 md:mr-20">
         <h1 className="text-white pt-5 pb-10 pl-5 text-2xl font-bold">
           {subtitle}

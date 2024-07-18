@@ -10,24 +10,57 @@
 //   plugins: [require("daisyui")],
 // };
 
+// module.exports = {
+//   purge: ["./src/**/*.{js,jsx}"],
+//   darkMode: false, // or 'media' or 'class'
+//   theme: {
+//     fontFamily: {
+//       abc: ["Montserrat", " sans-serif"],
+//     },
+//     extend: {
+//       keyframes: {
+//         "pulse-scale": {
+//           "0%, 100%": { transform: "scale(1)" },
+//           "50%": { transform: "scale(1.5)" },
+//         },
+//       },
+//       animation: {
+//         "pulse-scale": "pulse-scale 1s ease-in-out infinite",
+//       },
+//     },
+//   },
+//   variants: {
+//     extend: {},
+//   },
+//   plugins: [require("daisyui")],
+// };
+
+
+
 module.exports = {
   purge: ["./src/**/*.{js,jsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        abc: ["Montserrat", "sans-serif"],
+      },
       keyframes: {
-        "pulse-scale": {
+        pulse: {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.5)" },
         },
       },
       animation: {
-        "pulse-scale": "pulse-scale 1s ease-in-out infinite",
+        pulse: "pulse 1s ease-in-out infinite",
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+    // other plugins can be added here if needed
+  ],
 };

@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 const Background = () => {
   return (
-    <div className="bg-gray-900 text-gray-400 ">
+    <div className="bg-gray-900 text-gray-400 font-abc">
       <Helmet>
         <title>Background Info</title>
         <meta

@@ -123,7 +123,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="bg-cover h-screen w-full overflow-hidden text-gray-200">
+    <div className="bg-cover h-screen w-full overflow-hidden text-gray-200 font-abc">
       {loading && (
         <div className="flex justify-center items-center h-screen">
           <span className="loading loading-bars loading-xs  text-gray-900"></span>
