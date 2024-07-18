@@ -43,23 +43,44 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen  bg-gray-900 pb-10 md:grid md:grid-cols-2">
+    <div className="min-h-screen block bg-gray-900 pb-10 md:grid md:grid-cols-2">
       {/* <RightSection/> */}
-      <div className="ml-40 mr-20">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-          nostrum beatae dolor esse excepturi hic laudantium assumenda facilis
-          dolores distinctio ut culpa reprehenderit cumque, sint, consequatur
-          repudiandae officia ipsum incidunt ipsam eligendi similique?
-          Doloremque saepe iure voluptas, ipsum soluta accusamus id
-          exercitationem eos aut quas a nobis officiis quam sunt dolores
-          nesciunt atque. Eos, eum? Blanditiis facere ea dolore et? Alias
-          dolorem, fugiat deleniti mollitia architecto blanditiis magni tempora
-          laborum? Cum quas, consectetur, corporis deserunt explicabo veniam nam
-          quibusdam excepturi voluptatibus hic, beatae deleniti nobis.
-          Temporibus accusamus quisquam nostrum, similique est minima mollitia,
-          sunt, natus eum asperiores officiis architecto tempore.
-        </p>
+      <div className="md:ml-40 md:mr-20">
+        <h1 className="text-white pt-5 pb-10 pl-5 text-2xl font-bold">
+          Other Skills
+        </h1>
+        <p className="text-gray-300 uppercase pl-5">Tech Skills</p>
+        <span className="grid grid-cols-3 ml-5 mb-10 ">
+          <div className="badge badge-ghost  mt-3">Git</div>
+          <div className="badge badge-ghost  mt-3">Material UI</div>
+          <div className="badge badge-ghost  mt-3">Chakra UI</div>
+          <div className="badge badge-ghost  mt-3">React</div>
+          <div className="badge badge-ghost  mt-3">Typescript</div>
+          <div className="badge badge-ghost  mt-3">Next JS</div>
+          <div className="badge badge-ghost  mt-3">Vue JS</div>
+          <div className="badge badge-ghost  mt-3">Vuex</div>
+          <div className="badge badge-ghost  mt-3">Redux</div>
+          <div className="badge badge-ghost  mt-3">Slack</div>
+          <div className="badge badge-ghost  mt-3">GitHub</div>
+          <div className="badge badge-ghost  mt-3">Node JS</div>
+          <div className="badge badge-ghost  mt-3">Google Meet</div>
+          <div className="badge badge-ghost  mt-3">Trello</div>
+          <div className="badge badge-ghost  mt-3">Zoom</div>
+          <div className="badge badge-ghost  mt-3">Express JS</div>
+          <div className="badge badge-ghost  mt-3">Tailwind CSS</div>
+        </span>
+        <p className="text-gray-300 uppercase pl-5">Soft Skills</p>
+        <div className="badge badge-ghost ml-3 mt-3">Problem Solving</div>
+        <div className="badge badge-ghost ml-3 mt-3">Resiliance</div>
+        <div className="badge badge-ghost ml-3 mt-3">Collaboration</div>
+        <div className="badge badge-ghost ml-3 mt-3">Communication</div>
+        <div className="badge badge-ghost ml-3 mt-3">Time Management</div>
+        <p className="text-gray-300 uppercase pl-5 mt-10">Hobbies</p>
+        <div className="badge badge-ghost ml-3 mt-3">Music</div>
+        <div className="badge badge-ghost ml-3 mt-3">Video Games</div>
+        <div className="badge badge-ghost ml-3 mt-3">Basketball</div>
+        <div className="badge badge-ghost ml-3 mt-3">Coding</div>
+        <div className="badge badge-ghost ml-3 mt-3">Eating</div>
       </div>
       <Helmet>
         <title>Contact me</title>
@@ -68,9 +89,11 @@ const Contact = () => {
           content="You can reach me by sending a message"
         />
       </Helmet>
-      <div className="ml-64 ">
-        <h1 className="text-center text-2xl font-bold mr-14 pb-5 pt-5 text-white">Contact Me</h1>
-        <div className="bg-gray-800 p-10 rounded-lg mr-10">
+      <div className="md:ml-64 mr-5 ml-5">
+        <h1 className="text-center text-2xl  font-bold md:mr-14 pb-5 pt-5 text-white">
+          Contact Me
+        </h1>
+        <div className="bg-gray-800 p-10 rounded-lg md:mr-10">
           <form onSubmit={handleSubmit}>
             <div className="mb-10">
               <label className="input input-bordered flex items-center gap-2 w-72">
