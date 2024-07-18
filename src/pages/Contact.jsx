@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet";
 import * as Yup from "yup";
-// import RightSection from "./RightSection";
 
 const Contact = () => {
   const title = "Contact Information";
@@ -46,7 +45,6 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen block bg-gray-900 pb-10 md:grid md:grid-cols-2">
-      {/* <RightSection/> */}
       <div className="md:ml-40 md:mr-20">
         <h1 className="text-white pt-5 pb-10 pl-5 text-2xl font-bold">
           {subtitle}
@@ -165,14 +163,6 @@ const Contact = () => {
                 </div>
               )}
             </div>
-
-            {/* <button
-              type="submit"
-              className="bg-green-700 text-white p-3 rounded-lg w-72 mt-5 transform transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:border-b-4 hover:border-green-300"
-            >
-              SEND MESSAGE
-            </button> */}
-            {/* Open the modal using document.getElementById('ID').showModal() method */}
             <button
               className=" bg-green-700 text-white p-3 rounded-lg w-72 mt-5 transform transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:border-b-4 hover:border-green-300"
               onClick={() => document.getElementById("my_modal_2").showModal()}
