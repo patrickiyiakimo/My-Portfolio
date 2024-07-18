@@ -4,6 +4,8 @@ import * as Yup from "yup";
 // import RightSection from "./RightSection";
 
 const Contact = () => {
+  const title = "Contact Information";
+  const subtitle = "Other Skills";
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -47,7 +49,7 @@ const Contact = () => {
       {/* <RightSection/> */}
       <div className="md:ml-40 md:mr-20">
         <h1 className="text-white pt-5 pb-10 pl-5 text-2xl font-bold">
-          Other Skills
+          {subtitle}
         </h1>
         <p className="text-gray-300 uppercase pl-5">Tech Skills</p>
         <span className="grid grid-cols-3 ml-5 mb-10 ">
@@ -83,15 +85,16 @@ const Contact = () => {
         <div className="badge badge-ghost ml-3 mt-3">Eating</div>
       </div>
       <Helmet>
-        <title>Contact me</title>
+        <title>Contact Information</title>
         <meta
           name="Contact section"
           content="You can reach me by sending a message"
         />
       </Helmet>
+
       <div className="md:ml-64 mr-5 ml-5">
         <h1 className="text-center text-2xl  font-bold md:mr-14 pb-5 pt-5 text-white">
-          Contact Me
+          {title}
         </h1>
         <div className="bg-gray-800 p-10 rounded-lg md:mr-10">
           <form onSubmit={handleSubmit}>
@@ -163,12 +166,27 @@ const Contact = () => {
               )}
             </div>
 
-            <button
+            {/* <button
               type="submit"
               className="bg-green-700 text-white p-3 rounded-lg w-72 mt-5 transform transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:border-b-4 hover:border-green-300"
             >
               SEND MESSAGE
+            </button> */}
+            {/* Open the modal using document.getElementById('ID').showModal() method */}
+            <button
+              className=" bg-green-700 text-white p-3 rounded-lg w-72 mt-5 transform transition-transform duration-500 ease-in-out hover:-translate-y-4 hover:border-b-4 hover:border-green-300"
+              onClick={() => document.getElementById("my_modal_2").showModal()}
+            >
+              SEND MESSAGE
             </button>
+            <dialog id="my_modal_2" className="modal">
+              <div className="modal-box bg-gray-800 text-gray-300">
+                <p className="py-4 text-center underline">Thank you for reaching out to me 🙂</p>
+              </div>
+              <form method="dialog" className="modal-backdrop">
+                <button>close</button>
+              </form>
+            </dialog>
           </form>
         </div>
       </div>
