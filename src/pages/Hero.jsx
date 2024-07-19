@@ -167,7 +167,7 @@ const Hero = () => {
               }}
               repeat={Infinity}
             />
-            <p>You can click on any of the Icons to know more about me</p>
+            <p className="text-white">You can click on any of the Icons to know more about me</p>
             <TypeAnimation
               sequence={[" Thank You🙂", 2000]}
               wrapper="span"
