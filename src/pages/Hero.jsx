@@ -23,11 +23,11 @@ import { FaArrowPointer } from "react-icons/fa6";
 const Hero = () => {
   const [loading, setLoading] = useState(true);
 
+  // loading delay
   useEffect(() => {
-    // Simulate loading delay
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Adjust the timeout delay as needed
+    }, 1000); 
 
     return () => clearTimeout(timer);
   }, []);
