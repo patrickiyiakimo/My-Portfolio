@@ -27,7 +27,7 @@ const Hero = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); 
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -107,7 +107,7 @@ const Hero = () => {
               <FaGithub className="w-10 h-10" />
             </div>
           </div>
-          <Footer />
+          <Footer/>
         </div>
       )}
     </div>
