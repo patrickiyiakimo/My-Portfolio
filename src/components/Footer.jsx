@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="bg-gray-800 rounded-md ">
       <div className="flex justify-center  items-center gap-10">
-        <button className="">
+        <button>
           <a href="https://github.com/patrickiyiakimo">
             <FaGithub className="h-14" />
           </a>

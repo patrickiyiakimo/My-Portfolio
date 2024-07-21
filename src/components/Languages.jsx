@@ -31,7 +31,7 @@ const Languages = () => {
       <small className="ml-5 text-gray-400">+2348143643066</small>
       <hr className="w-60 ml-2 mt-4 mb-5 border-2 border-solid border-green-600 "></hr>
       <a
-        href="https://flowcv.com/resume/ws4se0s24h"
+        href="https://flowcv.com/resume/kbflcu3ohm"
         className=" font-semibold hover:underline hover:text-green-200 gap-3 flex justify-center items-center"
       >
         View Resume <FaDownload />
