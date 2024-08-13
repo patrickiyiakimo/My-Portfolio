@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import background from "../images/galaxy.webp";
+import background from "../images/bg-right-image.jpg";
 import Navbar from "../components/Navbar";
 import RightSection from "./RightSection";
 import avatar from "../images/avataaars.png";
@@ -45,7 +45,11 @@ const Hero = () => {
       {!loading && (
         <div
           className="text-gray-800 bg-white h-full bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg"
-          style={{ backgroundImage: `url(${background})` }}
+          style={{
+            backgroundImage: `url(${background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
+          }}
         >
           <FaArrowPointer className="text-white absolute w-8 h-8 left-10 top-14 sm:hidden" />
           <div className="flex flex-col md:flex-row mb-5 mr-20 -ml-3 md:mr-40 md:ml-20 pt-5">
@@ -107,7 +111,7 @@ const Hero = () => {
               <FaGithub className="w-10 h-10" />
             </div>
           </div>
-          <Footer/>
+          <Footer />
         </div>
       )}
     </div>

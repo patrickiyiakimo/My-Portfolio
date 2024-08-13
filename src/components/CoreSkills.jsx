@@ -25,19 +25,19 @@ const CoreSkills = () => {
         ></progress>
         <span className="flex">
           <p className="mr-24">Javascript</p>
-          <p>100%</p>
+          <p>80%</p>
         </span>
         <progress
-          className="progress progress-success w-56"
+          className="progress progress-success w-44"
           value="100"
           max="100"
         ></progress>
         <span className="flex">
           <p className="mr-32">React</p>
-          <p>100%</p>
+          <p>80%</p>
         </span>
         <progress
-          className="progress progress-success w-56"
+          className="progress progress-success w-44"
           value="100"
           max="100"
         ></progress>
@@ -47,24 +47,24 @@ const CoreSkills = () => {
         </span>
         <progress
           className="progress progress-success w-56"
-          value="80"
+          value="75"
           max="100"
         ></progress>
         <span className="flex">
           <p className="mr-24">Typescript</p>
-          <p>90%</p>
+          <p>80%</p>
         </span>
         <progress
-          className="progress progress-success w-56"
+          className="progress progress-success w-44"
           value="90"
           max="100"
         ></progress>
         <span className="flex">
           <p className="mr-28">Next Js</p>
-          <p>90%</p>
+          <p>80%</p>
         </span>
         <progress
-          className="progress progress-success w-56"
+          className="progress progress-success w-44"
           value="90"
           max="100"
         ></progress>
