@@ -44,7 +44,7 @@ const RightSection = () => {
               <li>
                 <a>
                   <FaRegLightbulb />
-                  Portfolio
+                  Projects
                 </a>
               </li>
             </Link>
