@@ -1,5 +1,4 @@
 import React from "react";
-import patrick from "../images/pato.JPG";
 import CoreSkills from "./CoreSkills";
 import Languages from "./Languages";
 import Tools from "./Tools";
@@ -29,7 +28,7 @@ const Navbar = () => {
               <div className=" ">
                 <figure>
                   <img
-                    src={patrick}
+                    src="/images/pato.JPG"
                     alt="patick picture"
                     className=" rounded-md  mb-10 "
                   />

@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import background from "../images/bg-right-image.jpg";
 import Navbar from "../components/Navbar";
 import RightSection from "./RightSection";
-import avatar from "../images/avataaars.png";
 import { TypeAnimation } from "react-type-animation";
 import Footer from "./Footer";
 import { FaHtml5 } from "react-icons/fa";
@@ -46,7 +44,7 @@ const Hero = () => {
         <div
           className="text-gray-800 bg-white h-full bg-opacity-10 backdrop-blur-lg rounded-lg shadow-lg"
           style={{
-            backgroundImage: `url(${background})`,
+            backgroundImage: `url('/images/bg-right-image.jpg')`,
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
           }}
@@ -58,7 +56,7 @@ const Hero = () => {
           </div>
           <div className="text-center">
             <img
-              src={avatar}
+              src="/images/avataaars.png"
               alt="my avatar"
               className="w-36 mx-auto md:w-40 mb-1"
             />

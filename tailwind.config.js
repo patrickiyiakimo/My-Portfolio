@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         abc: ["Montserrat", "sans-serif"],
       },
+      backgroundImage: {
+        "custom-bg": "url('/bg-right-image.jpg')",
+      },
       keyframes: {
         pulse: {
           "0%, 100%": { transform: "scale(1)" },
