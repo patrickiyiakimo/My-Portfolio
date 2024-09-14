@@ -2,26 +2,26 @@
   {
     "_id": 1,
     "image": "../public/images/pato.JPG",
-    "title": "trendy-trove",
+    "title": "fitquest-ten",
     "body": " From timeless classics to modern marvels, we offer pieces that transforms houses into homes."
   },
   {
     "_id": 2,
     "image": "../public/images/pato.JPG",
-    "title": "coinfied-2024",
+    "title": "weblify-client",
     "body": " Step into the realm of digital currency with Coinfied, where possibilities abound and opportunities await."
   },
   {
     "_id": 3,
     "image": "../public/images/pato.JPG",
-    "title": "bharat-intern-one",
+    "title": "gist-cart",
     "body": "  Join a network of like-minded individuals, unlock new possibilities, and experience growth on your journey to success."
   },
 
   {
     "_id": 4,
     "image": "../public/images/pato.JPG",
-    "title": "weblify-app",
+    "title": "coinfied-2024",
     "body": "Effortlessly Shorten your long URLs with Weblify."
   }
 ]
