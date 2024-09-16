@@ -7,7 +7,7 @@ const Tools = () => {
         <h2 className="text-2xl font-semibold ml-5 mb-5 mt-10">
           Frameworks / Tools
         </h2>
-        <span className="grid grid-cols-2 ml-5 mb-10 ">
+        <span className="grid grid-cols-2 ml-5 mb-10 font-bold">
           <div className="badge badge-ghost  mt-3">Git</div>
           <div className="badge badge-ghost  mt-3">Material UI</div>
           <div className="badge badge-ghost  mt-3">Chakra UI</div>
@@ -25,6 +25,9 @@ const Tools = () => {
           <div className="badge badge-ghost  mt-3">Zoom</div>
           <div className="badge badge-ghost  mt-3">Express JS</div>
           <div className="badge badge-ghost  mt-3">Tailwind CSS</div>
+          <div className="badge badge-ghost  mt-3">PostgreSQL</div>
+          <div className="badge badge-ghost  mt-3">MongoDB</div>
+          <div className="badge badge-ghost  mt-3">Docker</div>
         </span>
       </diiv>
       <hr className="w-60 ml-2 mt-4 border-2 border-solid border-green-600 "></hr>

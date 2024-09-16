@@ -35,7 +35,7 @@ const Navbar = () => {
                 </figure>
               </div>
               <div className=" flex justify-center items-center mr-3 font-bold text-2xl">
-                Frontend Engineer
+                Fullstack Engineer
               </div>
               <hr className="w-60 ml-2 mt-4 border-2 border-solid border-green-600 "></hr>
               <CoreSkills />

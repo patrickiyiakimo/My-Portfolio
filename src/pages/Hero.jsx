@@ -65,7 +65,7 @@ const Hero = () => {
             </h1>
             <TypeAnimation
               sequence={[
-                "I am a Frontend Engineer",
+                "I am a Fullstack Engineer",
                 2000,
                 "and a passionate problem solver.",
                 2000,
