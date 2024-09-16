@@ -56,9 +56,16 @@ const Background = () => {
             <p className="font-mono italic">Frontend Engineer</p>
             <p className="font-mono italic">Lagos, Nigeria</p>
             <div className="text-lg font-black">DotCampus Africa</div>
-            DotCampus is a tech community that offers exceptional tutoring,
-            mentorship and guided learning for the next generation of software
-            engineers
+            Nigeria DotCampus Africa is a dynamic tech community that provides
+            top-tier tutoring, mentorship, and guided learning to shape the next
+            generation of software engineers. As a Frontend Engineer and Tutor
+            at DotCampus, I leverage my technical expertise to deliver
+            comprehensive lessons and practical projects, enabling learners to
+            excel in web development. I have successfully tutored students
+            across different regions, including the UK and Nigeria, helping them
+            build a strong foundation in frontend technologies, software
+            engineering best practices, and problem-solving skills to advance
+            their careers.
           </div>
           <hr />
         </li>
