@@ -17,6 +17,10 @@ import { SiExpress } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaArrowPointer } from "react-icons/fa6";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiMongodb } from "react-icons/si";
+
+
 
 const Hero = () => {
   const [loading, setLoading] = useState(true);
@@ -107,6 +111,8 @@ const Hero = () => {
               <SiExpress className="text-white w-10 h-10" />
               <FaGitAlt className="text-orange-500 w-10 h-10" />
               <FaGithub className="w-10 h-10" />
+              <BiLogoPostgresql className="w-10 h-10 text-blue-950" />
+              <SiMongodb className="w-10 h-10 text-green-900" />
             </div>
           </div>
         </div>
