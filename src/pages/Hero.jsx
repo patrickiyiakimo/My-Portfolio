@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import RightSection from "./RightSection";
 import { TypeAnimation } from "react-type-animation";
-import Footer from "./Footer";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -19,6 +18,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaArrowPointer } from "react-icons/fa6";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 
 
 
@@ -83,9 +83,7 @@ const Hero = () => {
               }}
               repeat={Infinity}
             />
-            <p className="text-white">
-              You can click on any of the Icons to know more about me
-            </p>
+            <p className="text-white">You can click on any of the Icons to know more about me</p>
             <TypeAnimation
               sequence={[" Thank You🙂", 2000]}
               wrapper="span"
@@ -113,6 +111,7 @@ const Hero = () => {
               <FaGithub className="w-10 h-10" />
               <BiLogoPostgresql className="w-10 h-10 text-blue-950" />
               <SiMongodb className="w-10 h-10 text-green-900" />
+              <FaDocker className="w-10 h-10 text-blue-950" />
             </div>
           </div>
         </div>
